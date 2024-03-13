@@ -2,7 +2,7 @@
 The growth rate comparsion between the execution time of algorithm DPC and the scale of $D_{n,k}$.
 
 The time complexity of the algorithm DPC is $nk(nk+2^k)$.
-The scale of $D_{n,k}$ is represented by the number of edges in $D_{n,k}$,
+The scale of $D_{n,k}$ is represented by the number of edges in $D_{n,k}$.
 The number of edges in $D_{n,k}$ is $|E(D_{n,k})|=|E(D_{n,k-1})|*f_k+\frac{f_k(f_k-1)}{2}$,
 where $k\geq 1$, $f_k=n*w_{k-1}+1$ denotes the number of disjoint copies $D_{n,k-1}$ in $D_{n,k}$, $w_k=f_k*w_{k-1}$ denotes the number of nodes in $D_{n,k}$, and $|E(D_{n,0})|=0$.
 """
